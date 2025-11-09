@@ -1,100 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>New Arrivals</title>
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-</head>
-<body data-bs-theme="dark">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  </head>
+  <body data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-  <div></div>
-  <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="http://127.0.0.1:5500/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="http://127.0.0.1:5500/collection.html"
+                >Collection</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="http://127.0.0.1:5500/new_arrivals.html"
+                >New Arrivals</a
+              >
+            </li>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="http://127.0.0.1:5500/about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/collection.html">Collection</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/new_arrivals.html">New Arrivals</a>
-        </li>
-        
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" class="bg-secondary">
-         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-         <img src="assets/images/download.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
-         </a>
+            <nav
+              class="navbar navbar-expand-sm bg-dark navbar-dark bg-secondary"
+            >
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img
+                    src="assets/images/download.png"
+                    alt="Avatar Logo"
+                    style="width: 40px"
+                    class="rounded-pill"
+                  />
+                </a>
+              </div>
+            </nav>
+          </ul>
         </div>
-        
-        </nav>
-        
-      </ul>
-      
+      </div>
+    </nav>
+
+    <section class="py-5 text-center bg-dark text-center">
+      <div class="container">
+        <h1 class="display-4 fw-bold">New Arrivals</h1>
+      </div>
+    </section>
+
+    <div class="container py-5">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img
+              src="assets/images/images (6).jfif"
+              class="card-img-top"
+              alt="Watch 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Rolex Sky-Dweller Blue</h5>
+              <p class="card-text">$20,000</p>
+              <a href="#" class="btn btn-secondary text-muted fw-bold"
+                >Buy Now</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img
+              src="assets/images/images (7).jfif"
+              class="card-img-top"
+              alt="Watch 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Rolex Yacht-Master 40 - Rose Gold</h5>
+              <p class="card-text">$24,000</p>
+              <a href="#" class="btn btn-secondary text-muted fw-bold"
+                >Buy Now</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img
+              src="assets/images/images (8).jfif"
+              class="card-img-top"
+              alt="Watch 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Rolex Day-Date 40 - Green Roman Dial</h5>
+              <p class="card-text">$38,000</p>
+              <a href="#" class="btn btn-secondary text-muted fw-bold"
+                >Buy Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  
 
-</nav>
-
-<section class="py-5 text-center bg-dark text-center">
-<div class="container">
-<h1 class="display-4 fw-bold">New Arrivals</h1>
-
-</div>
-</section>
-
-      <div class="container py-5">
-    <div class="row g-4">
-
-      
-      <div class="col-md-4">
-        <div class="card text-center">
-          <img src="assets/images/images (6).jfif" class="card-img-top" alt="Watch 1">
-          <div class="card-body">
-            <h5 class="card-title">Rolex Sky-Dweller Blue</h5>
-            <p class="card-text">$20,000</p>
-            <a href="#" class="btn btn-secondary text-muted fw-bold">Buy Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card text-center">
-          <img src="assets/images/images (7).jfif" class="card-img-top" alt="Watch 1">
-          <div class="card-body">
-            <h5 class="card-title">Rolex Yacht-Master 40 – Rose Gold</h5>
-            <p class="card-text">$24,000</p>
-            <a href="#" class="btn btn-secondary text-muted fw-bold">Buy Now</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-4">
-        <div class="card text-center">
-          <img src="assets/images/images (8).jfif" class="card-img-top" alt="Watch 1">
-          <div class="card-body">
-            <h5 class="card-title">Rolex Day-Date 40 – Green Roman Dial</h5>
-            <p class="card-text">$38,000</p>
-            <a href="#" class="btn btn-secondary text-muted fw-bold">Buy Now</a>
-          </div>
-        </div>
-      </div>
-
-    
-          <script src="assets/js/bootstrap.min.js"></script>
-</body>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
 </html>
